@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guessing Game for Christos Golsouzidis</title>
+    <title>Guessing Game for Christos Golsouzidis 96078157</title>
 </head>
 <body>
     <h1>Welcome to my guessing game</h1>
     <p>
         <?php
-            $target = 48;
+            $target = 73;
             if (!isset($_GET['guess'])) {echo "Missing guess parameter";}
             else if (strlen($_GET['guess']) < 1) {echo "Your guess is too short";}
             else if (!is_numeric($_GET['guess'])) {echo "Your guess is not a number";}
